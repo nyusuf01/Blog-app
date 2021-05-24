@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "db:seed": "node seed/data.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/nyusuf01/TeamPractice#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.10",
     "morgan": "^1.10.0"
