@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout/Layout"
-import Post from "../../components/Post/Post"
+import Post from "../../components/Nav/Post/Post"
 
 function Home() {
   return (
